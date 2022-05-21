@@ -7,6 +7,8 @@ vim.cmd([[colorscheme gruvbox]])
 vim.opt.splitright = true
 vim.opt.splitbelow = true
 
+vim.opt.guifont = "JetBrainsMono NF:h12"
+
 require('lualine').setup {
     options = { theme = 'gruvbox' },
     ...

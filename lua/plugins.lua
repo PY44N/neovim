@@ -15,4 +15,6 @@ return require('packer').startup(function(use)
     use {'ms-jpq/coq.artifacts', branch = 'artifacts'}
 
     use 'nvim-treesitter/nvim-treesitter'
+
+    use "lukas-reineke/lsp-format.nvim"
 end)

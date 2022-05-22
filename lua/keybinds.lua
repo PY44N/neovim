@@ -1,3 +1,11 @@
+function map(mode, lhs, rhs, opts)
+    local options = { noremap = true }
+    if opts then
+        options = vim.tbl_extend("force", options, opts)
+    end
+    vim.api.nvim_set_keymap(mode, lhs, rhs, options)
+end
+
 -- Escape to go to normal mode when in the terminal
 map("t", "<esc>", [[<C-\><C-n>]])
 

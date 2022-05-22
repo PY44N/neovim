@@ -10,6 +10,6 @@ vim.opt.splitbelow = true
 vim.opt.guifont = "JetBrainsMono NF:h12"
 
 require('lualine').setup {
-    options = { theme = 'gruvbox' },
-    ...
-  }
+  options = { theme = 'gruvbox' },
+  ...
+}

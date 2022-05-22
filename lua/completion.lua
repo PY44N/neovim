@@ -18,3 +18,5 @@ for _, server in ipairs(servers) do
 end
 
 vim.cmd("COQnow -s")
+
+vim.cmd [[autocmd CursorHold * lua vim.lsp.buf.hover()]]

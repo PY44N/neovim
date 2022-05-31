@@ -14,3 +14,6 @@ map("n", "<M-h>", "<C-w>h")
 map("n", "<M-j>", "<C-w>j")
 map("n", "<M-k>", "<C-w>k")
 map("n", "<M-l>", "<C-w>l")
+
+-- Hotkey to close current window
+map("n", "<C-c>", ":close<CR>")

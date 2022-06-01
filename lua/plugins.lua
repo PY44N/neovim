@@ -17,4 +17,11 @@ return require('packer').startup(function(use)
     use 'nvim-treesitter/nvim-treesitter'
 
     use "lukas-reineke/lsp-format.nvim"
+
+    use {
+        'numToStr/Comment.nvim',
+        config = function()
+            require('Comment').setup()
+        end
+    }
 end)

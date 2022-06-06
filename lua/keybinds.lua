@@ -19,3 +19,4 @@ map("n", "<M-l>", "<C-w>l")
 map("n", "<C-c>", ":close<CR>", { silent = true })
 
 map("n", "<M-p>", '"+gp', { silent = true })
+map("n", "<M-y>", '"+y', {silent = true})

@@ -1,4 +1,4 @@
-local servers = { "sumneko_lua", "rust_analyzer", "clangd", "pylsp" }
+local servers = { "sumneko_lua", "rust_analyzer", "clangd", "pylsp", "eslint" }
 require("nvim-lsp-installer").setup {
   ensure_installed = servers,
 --   automatic_installation = true

@@ -20,3 +20,6 @@ map("n", "<C-c>", ":close<CR>", { silent = true })
 
 map("n", "<M-p>", '"+gp', { silent = true })
 map("n", "<M-y>", '"+y', {silent = true})
+
+-- Telescope hotkeys
+map("n", "<C-s>", ":Telescope find_files<cr>", {silent = true})

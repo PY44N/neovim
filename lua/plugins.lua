@@ -8,7 +8,9 @@ return require('packer').startup(function(use)
 		requires = { 'kyazdani42/nvim-web-devicons', opt = true }
 	}
 
-	use { 'neovim/nvim-lspconfig', 'williamboman/nvim-lsp-installer' }
+  use { "williamboman/mason.nvim" }
+  use "neovim/nvim-lspconfig"
+	use "lukas-reineke/lsp-format.nvim"
 
 	use { 'ms-jpq/coq_nvim', branch = 'coq' }
 
@@ -16,8 +18,6 @@ return require('packer').startup(function(use)
 
 	use 'nvim-treesitter/nvim-treesitter'
 
-	use "lukas-reineke/lsp-format.nvim"
-    
     use {
         'numToStr/Comment.nvim',
         config = function()

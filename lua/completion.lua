@@ -1,8 +1,5 @@
-local servers = { "sumneko_lua", "rust_analyzer", "clangd", "pylsp", "eslint" }
-require("nvim-lsp-installer").setup {
-  ensure_installed = servers,
---   automatic_installation = true
-}
+local servers = {"jdtls", "rust_analyzer"}
+require("mason").setup()
 
 local lsp = require('lspconfig')
 local coq = require "coq"

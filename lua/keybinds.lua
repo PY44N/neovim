@@ -22,4 +22,4 @@ map("n", "<M-p>", '"+gp', { silent = true })
 map("n", "<M-y>", '"+y', {silent = true})
 
 -- Telescope hotkeys
-map("n", "<C-s>", ":Telescope find_files<cr>", {silent = true})
+map("n", "<C-p>", ":Telescope find_files<cr>", {silent = true})

@@ -1,7 +1,0 @@
-require("plugins")
-require("visual")
-require("completion")
-require("syntax")
-require("fuzzyfinder")
-require("keybinds")
-require("misc")
